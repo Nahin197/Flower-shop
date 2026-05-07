@@ -9,7 +9,7 @@
 /* first we have to calculate the screen size ,for the fisrt design we see that the header contain a child
 which holds 1920-240-240=1440 pixel width */
 
-header {
+header , #hot-deal {
     background-color: rgba(229, 84, 115, 0.1);
 }
 
@@ -153,7 +153,7 @@ button:hover {
     align-items: center;
     gap: 100px;
     text-align: center;
-    /* width: 75%; */
+    width: 75%;
     max-width: 1440px;
     margin: 0 auto;
     background-color: rgba(39, 39, 39, 0.05);
@@ -165,7 +165,7 @@ button:hover {
     
 }
 
-#featured , .same-day-delivery{
+#featured , .same-day-delivery , #hot-deal{
     margin-bottom: 128px;
 }
 
@@ -177,3 +177,41 @@ button:hover {
     margin-top: 18px;
     
 }
+
+.hot-deal-main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 186px;
+    padding: 100px 0;
+}
+
+.hot-deal-text{
+    width: 75%;
+    max-width: 550px;
+    text-align: center;
+}
+
+.hot-deal-text h2{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.span-clr{
+    color: rgba(229, 84, 115, 1);
+}
+
+.hot-deal-text *{
+    margin-bottom: 24px;
+}
+
+.hot-deal-img{
+    max-width: 318px;
+   
+    
+
+}
+
