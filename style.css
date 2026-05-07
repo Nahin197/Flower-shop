@@ -165,7 +165,7 @@ button:hover {
     
 }
 
-#featured , .same-day-delivery , #hot-deal{
+#featured , .same-day-delivery , #hot-deal ,.instagram{
     margin-bottom: 128px;
 }
 
@@ -210,8 +210,26 @@ button:hover {
 
 .hot-deal-img{
     max-width: 318px;
-   
-    
+}
 
+.insta-head{
+    max-width: 445px;
+    margin-bottom: 48px;
+
+}
+
+.insta-img-container{
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+
+}
+
+.insta-img img{
+    width: 100%;
+    height: 100%;
 }
 
